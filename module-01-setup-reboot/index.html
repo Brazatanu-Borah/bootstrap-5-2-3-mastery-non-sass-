@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Module 1: Architecture & Reboot | Brazatanu Borah</title>
+
+    <!-- Bootstrap 5.2.3 Compiled CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha256-wLz3iY/cO4e6vKZ4zRmo4+9XDpMcgKOvv/zEU3OMlRo=" crossorigin="anonymous" />
+
+    <!-- Font Awesome 6.7.2 Free CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" integrity="sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=" crossorigin="anonymous" />
+
+    <!-- Custom CSS (AFTER Bootstrap) -->
+    <link rel="stylesheet" href="./css/custom.css" />
+  </head>
+
+  <body>
+
+
+    <!-- Plain semantic HTML styled with Flexbox in custom.css -->
+    <header class="site-header">
+
+      <div class="brand-group">
+        <strong>Brazatanu Borah</strong>
+        <span class="brand-badge">Frontend Freelancer</span>
+      </div>
+
+      <nav class="social-links" aria-label="Social Media">
+        <!-- social links properly pair aria-label= on the <a> with aria-hidden="true" on the <i> elements (there is no visible text).
+          rel="noopener noreferrer" right next to target="_blank" (to prevent window.opener tabnabbing).
+          -->
+        <a href="https://github.com/Brazatanu-Borah" aria-label="GitHub Profile" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="https://x.com/BrazatanuB" aria-label="X Profile" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+        </a>
+      </nav>
+
+    </header>
+
+    <main class="main-content">
+      <h1>
+        <!-- aria-hidden="true" on the <i> elements (there is visible text sitting next to the icon that gives semantic meaning, so screnreaders won't read the icon glyphs) -->
+        <i class="fa-solid fa-layer-group" aria-hidden="true"></i> Bootstrap 5.2.3 Reboot Check
+      </h1>
+      <p>
+        Reboot removed <code>margin-top</code>, set <code>box-sizing: border-box</code>, and applied the native OS font stack automatically.
+      </p>
+    </main>
+
+
+
+
+
+    <!-- Bootstrap 5.2.3 JS Bundle (includes Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha256-lSABj6XYH05NydBq+1dvkMu6uiCc/MbLYOFGRkf3iQs=" crossorigin="anonymous"></script>
+
+    <!-- Custom JS (AFTER Bootstrap) -->
+    <script src="./js/app.js"></script>
+  </body>
+
+</html>

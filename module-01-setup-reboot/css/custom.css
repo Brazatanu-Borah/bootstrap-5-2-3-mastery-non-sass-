@@ -1,0 +1,46 @@
+/* Styled with standard CSS & Flexbox (until I learn Bootstrap's Grid & Utilities in Days 2–5) */
+
+/* Header ===================== */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: solid 1px #e2e8f0;
+}
+
+.brand-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand-badge {
+  background-color: #1e293b;
+  color: #ffffff;
+  font-size: 0.85rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.25rem;
+}
+
+.social-links a {
+  color: #1e293b;
+  text-decoration: none;
+}
+/* End: Header ===================== */
+
+
+
+/* Main Content ===================== */
+.main-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+/* End: Main Content ===================== */
