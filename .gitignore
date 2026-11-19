@@ -1,0 +1,13 @@
+# Windows OS junk files
+Thumbs.db
+Desktop.ini
+
+# VS Code personal workspace settings
+.vscode/
+
+# macOS junk (in case you ever open this on a Mac)
+.DS_Store
+
+# Logs & temporary files
+*.log
+*.tmp
