@@ -19,15 +19,15 @@ Building on my existing foundation in **HTML, CSS Flexbox, and basic JavaScript*
 | **Days 4–5** | Module 3: The Utility API | [3-Tier Pricing Cards (Zero Custom CSS)](./module-03-pricing-cards/) | [Live Preview](https://brazatanu-borah.github.io/bootstrap-5-2-3-mastery-non-sass-/module-03-pricing-cards/) | ⏳ Upcoming |
 | **Day 6** | Module 4: Content & Forms | [Validated Checkout & Lead Form](./module-04-checkout-form/) | [Live Preview](https://brazatanu-borah.github.io/bootstrap-5-2-3-mastery-non-sass-/module-04-checkout-form/) | ⏳ Upcoming |
 | **Day 7** | Module 5: Core UI & Navigation | [Sticky Responsive Navbar + FAQ](./module-05-navbar-faq/) | [Live Preview](https://brazatanu-borah.github.io/bootstrap-5-2-3-mastery-non-sass-/module-05-navbar-faq/) | ⏳ Upcoming |
-| **Days 8–9** | Module 6: JS-Powered Components | [Interactive Product Previewer](./module-06-product-previewer/) | [Live Preview](https://brazatanu-borah.github.io/bootstrap-5-2-3-mastery-non-sass-/module-06-product-previewer/) | ⏳ Upcoming |
+| **Days 8–9** | Module 6: Data-Attribute Components | [Interactive Product Previewer](./module-06-product-previewer/) | [Live Preview](https://brazatanu-borah.github.io/bootstrap-5-2-3-mastery-non-sass-/module-06-product-previewer/) | ⏳ Upcoming |
 | **Day 10** | Module 7: CSS Variable Theming | [Re-Branded Custom Theme (`--bs-*`)](./module-07-custom-theme/) | [Live Preview](https://brazatanu-borah.github.io/bootstrap-5-2-3-mastery-non-sass-/module-07-custom-theme/) | ⏳ Upcoming |
-| **Days 11–12** | Module 8: Freelance Capstone | [Full Responsive Landing Page & UI](./module-08-capstone-project/) | [Live Preview](https://brazatanu-borah.github.io/bootstrap-5-2-3-mastery-non-sass-/module-08-capstone-project/) | ⏳ Upcoming |
+| **Days 11–12** | Module 8: Freelance Capstone | [FlowPulse SaaS Landing Page & UI](./module-08-capstone-project/) | [Live Preview](https://brazatanu-borah.github.io/bootstrap-5-2-3-mastery-non-sass-/module-08-capstone-project/) | ⏳ Upcoming |
 
 ---
 
 ## 🧠 Key Architectural Takeaways
 * **Zero Sass Required**: Leveraging Bootstrap 5.2's root and component-level CSS Custom Properties (`--bs-*`) for clean brand theming.
-* **Zero jQuery**: Controlling Modals, Offcanvas drawers, Toasts, Tooltips, and Scrollspy natively via `data-bs-*` attributes and Vanilla JS constructors.
+* **Zero Custom JavaScript**: Controlling Modals, Offcanvas drawers, Carousels, Toasts, Tooltips, and Scrollspy declaratively via HTML `data-bs-*` attributes and standard Bootstrap initialization snippets.
 * **Accessibility First (`a11y`)**: Proper semantic landmarks, keyboard focus states, and `aria-*` attributes across all interactive UI.
 
 ---
