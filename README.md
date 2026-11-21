@@ -1,11 +1,11 @@
 # 🚀 Bootstrap 5.2.3 & Font Awesome 6.7.2 Mastery
 
-Building on my existing foundation in **HTML, CSS Flexbox, and basic JavaScript**, this 12-day hands-on frontend curriculum documents my deep dive into **Bootstrap 5.2.3** (without Sass)—focusing on under-the-hood CSS/JS architecture, responsive layout systems, CSS Custom Property theming, and freelance-ready UI components.
+Building on my existing foundation in **HTML5, CSS3, and CSS Flexbox**, this 12-day hands-on frontend curriculum documents my deep dive into **Bootstrap 5.2.3** (without Sass or custom JavaScript)—focusing on under-the-hood CSS architecture, responsive layout systems, declarative `data-bs-*` interactivity, CSS Custom Property theming, and freelance-ready UI components.
 
 ## 🛠️ Tech Stack
 * **Framework**: Bootstrap 5.2.3 (Compiled CSS + JS Bundle with Popper.js)
 * **Icons**: Font Awesome 6.7.2 Free
-* **Core Languages**: Semantic HTML5, Modern CSS3 (`--bs-*` CSS Variables), Vanilla JavaScript (ES6+)
+* **Core Languages**: Semantic HTML5, Modern CSS3 (`--bs-*` CSS Variables), Declarative `data-bs-*` Attributes
 * **Deployment**: GitHub Pages
 
 ---
